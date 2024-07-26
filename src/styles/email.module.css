@@ -1,0 +1,31 @@
+.root {
+  position: relative;
+  height: 100%;
+}
+
+.frame {
+  width: 100%;
+  height: calc(100% - 6px) !important;
+}
+
+.copyBtn {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+
+  background: hsl(214 56% 46%);
+  color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  font-family: Ubuntu, Helvetica, Arial, sans-serif;
+}
+
+.copyBtn:hover {
+  background: hsl(214 56% 56%);
+}
+
+.copyBtn:active {
+  background: hsl(214 56% 61%);
+}
